@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia;
+}
+
+body{
+    background: #FAFAFA;   
+}
+
+a{
+    text-decoration: none;
+    color: #000;   
+}
+
+img{
+    border:none;    
+}
+
+li{
+    list-style-type: none;    
+}
+
+/* CLASSES */
+
+.left{ float: left; }
+.right{ float: right; }
+.aRight{ text-align: right; }
+.aLeft{ text-align: left; }
+.clear{ clear: both; }
+.none{ display: none;}
+
+/* FIM CLASSES */
+
+/* LOGIN */
+
+#site{
+    position:absolute;
+    top:50%;
+    margin-top:-150px;
+    left:50%;
+    margin-left:-350px;
+}
+
+#site #pagina{
+    position:relative;
+    background:url('../img/loginSuit.png') no-repeat;
+    height:300px;   
+    width:700px;
+}
+
+#site #pagina #login{
+    color: #333333;
+    position: absolute;
+    top:65%;
+    margin-top:-14px;
+    left:50%;        
+    margin-left:-245px;
+    color:#B9001C;
+}
+
+    #site #pagina #login input{
+        padding: 4px;  
+        background: #CCC; 
+    }
+    
+/* FIM LOGIN */
+
+#pagina{
+    width: 100%;    
+}
+   
+    #pagina #header{    
+        background:#EBEBEB;  
+        margin-bottom: 40px; 
+    }
+    
+    #pagina #header img{
+        margin: 30px;    
+    }
+    
+    #pagina #menuLateral{        
+        float: left;
+        width: 180px;
+        height: 480px;
+        margin-left:20px;        
+        border: solid 1px;
+        padding: 10px;
+    }
+    
+        #pagina #menuLateral ul li.menu a{
+            background: #C33;
+            padding: 5%;
+            margin-bottom: 3px;
+            color: white;   
+            display: inline-block;
+            width: 90%;
+        }
+        
+        #pagina #menuLateral ul li a{
+            color: white;
+        }            
+    
+        #pagina #menuLateral .subMenu{
+            display: none;
+            margin: 0 20px 5px 20px;    
+        }
+    
+    #pagina #conteudo{
+        float: left;
+        margin: 0 2%;
+        width: 700px;
+        border: solid 1px;
+        height: 500px;                    
+    }
+
+    #pagina #footer{
+        margin-top:40px;
+        background:#EBEBEB;  
+        height:100px;    
+    }
+
+
+
+
